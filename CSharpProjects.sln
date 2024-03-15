@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldCSharp", "HelloWorldCSharp\HelloWorldCSharp.csproj", "{974C4DC1-AC6B-44DB-A659-07080BF60CF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList", "ToDoList\ToDoList.csproj", "{8530BDCC-6167-4179-A2D8-611D23D8935C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8530BDCC-6167-4179-A2D8-611D23D8935C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8530BDCC-6167-4179-A2D8-611D23D8935C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8530BDCC-6167-4179-A2D8-611D23D8935C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8530BDCC-6167-4179-A2D8-611D23D8935C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{974C4DC1-AC6B-44DB-A659-07080BF60CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{974C4DC1-AC6B-44DB-A659-07080BF60CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gitre\\RiderProjects\\CSharpProjects\\HelloWorldCSharp\\HelloWorldCSharp.csproj": {}
+    "C:\\Users\\gitre\\RiderProjects\\CSharpProjects\\ToDoList\\ToDoList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gitre\\RiderProjects\\CSharpProjects\\HelloWorldCSharp\\HelloWorldCSharp.csproj": {
+    "C:\\Users\\gitre\\RiderProjects\\CSharpProjects\\ToDoList\\ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gitre\\RiderProjects\\CSharpProjects\\HelloWorldCSharp\\HelloWorldCSharp.csproj",
-        "projectName": "HelloWorldCSharp",
-        "projectPath": "C:\\Users\\gitre\\RiderProjects\\CSharpProjects\\HelloWorldCSharp\\HelloWorldCSharp.csproj",
+        "projectUniqueName": "C:\\Users\\gitre\\RiderProjects\\CSharpProjects\\ToDoList\\ToDoList.csproj",
+        "projectName": "ToDoList",
+        "projectPath": "C:\\Users\\gitre\\RiderProjects\\CSharpProjects\\ToDoList\\ToDoList.csproj",
         "packagesPath": "C:\\Users\\gitre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gitre\\RiderProjects\\CSharpProjects\\HelloWorldCSharp\\obj\\",
+        "outputPath": "C:\\Users\\gitre\\RiderProjects\\CSharpProjects\\ToDoList\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gitre\\AppData\\Roaming\\NuGet\\NuGet.Config",
