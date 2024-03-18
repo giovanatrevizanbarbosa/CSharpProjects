@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using ToDoList.Model;
+using ToDoList.View;
 
 namespace ToDoList.Controller;
 
@@ -48,6 +49,37 @@ public class TaskController
         }
         return false;
     }
-    
-    
+
+    public string ShowAllTasks()
+    {
+        string msg = "";
+        foreach(var taskItem in _tasks.Values)
+        {
+            msg += $"\n========================== TASK {taskItem.Id} =========================\n";
+            msg += "TÍTULO.......: " + taskItem.Title
+                 + "\nDATA FINAL...: " + taskItem.ExpireDate;
+            switch (taskItem.Priority)
+            {
+                case 1: 
+                    msg += "\nPRIORIDADE...: ALTA";
+                    break;
+                case 2: 
+                    msg += "\nPRIORIDADE...: MÉDIA";
+                    break;
+                case 3: 
+                    msg += "\nPRIORIDADE...: BAIXA";
+                    break;
+            }
+            if (taskItem.Status)
+            {
+                msg += "\nSTATUS.......: COMPLETA";
+            }
+            else
+            {
+                msg += "\nSTATUS.......: A FAZER";
+            }
+        }
+
+        return msg;
+    }
 }

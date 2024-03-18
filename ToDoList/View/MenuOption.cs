@@ -7,5 +7,6 @@ public enum MenuOption
     RemoveTask = 2,
     UpdateTask = 3,
     MarkAsCompleted = 4,
-    UnmarkAsCompleted = 5
+    UnmarkAsCompleted = 5,
+    SeeAlltasks = 6
 }
